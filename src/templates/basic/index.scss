@@ -1,0 +1,13 @@
+@use "@/styles/colors.scss";
+
+#template-basic {
+	header {
+		padding: 1.5em;
+	}
+	main {
+		padding: 2% 7.5% 0% 7.5%;
+	}
+	footer {
+		padding: 1em;
+	}
+}

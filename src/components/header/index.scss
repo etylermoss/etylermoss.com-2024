@@ -1,0 +1,40 @@
+.component-header {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	align-items: center;
+
+	.left {
+		justify-self: left;
+	}
+
+	.center {
+		justify-self: center;
+	}
+
+	.right {
+		justify-self: right;
+	}
+
+	a.nav {
+		margin: 0 0.4em;
+	}
+
+	.header-button {
+		border: none;
+		outline: none;
+		background: none;
+		appearance: none;
+		cursor: pointer;
+
+		svg {
+			height: 1.5em;
+		}
+	}
+
+	@media (max-aspect-ratio: 1/1) {
+		.center {
+			justify-self: left;
+			grid-column: 1 / 3;
+		}
+	}
+}

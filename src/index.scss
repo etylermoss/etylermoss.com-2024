@@ -1,0 +1,41 @@
+@use 'styles/colors.scss';
+
+:root {
+	// rendering
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+	// fonts
+	font-family: "Ubuntu Sans Variable", sans-serif;
+	font-weight: 400;
+	line-height: normal;
+
+	// colors
+	background-color: colors.color-var("background");
+	color: colors.color-var("text");
+	color-scheme: light dark;
+}
+
+body {
+	margin: 0;
+}
+
+a {
+	color: colors.color-var("link");
+	text-decoration: none;
+
+	&:hover {
+		color: colors.color-var("link-hover");
+	}
+}
+
+a.nav {
+	color: colors.color-var("link-nav");
+	text-decoration: none;
+
+	&:hover {
+		color: colors.color-var("link-nav-hover");
+	}
+}

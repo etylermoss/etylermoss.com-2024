@@ -1,0 +1,37 @@
+$colors: (
+	"color-background": #ffffff,
+	"color-accent": #9696f3,
+	"color-text": #333333,
+	"color-link": #3881b5,
+	"color-link-hover": #11476f,
+	"color-link-nav": #444444,
+	"color-link-nav-hover": #7d7d7d,
+);
+
+$colors-dark: (
+	"color-background": #222222,
+	"color-accent": #9696f3,
+	"color-text": #eeeeee,
+	"color-link": #4e94c7,
+	"color-link-hover": #75b3e0,
+	"color-link-nav": #dddddd,
+	"color-link-nav-hover": #828282,
+);
+
+@function color-var($color) {
+	@return var(--color-#{$color});
+}
+
+:root {
+	@each $name, $color in $colors {
+		--#{$name}: #{$color};
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		@each $name, $color in $colors-dark {
+			--#{$name}: #{$color};
+		}
+	}
+}
