@@ -29,7 +29,7 @@ msgstr "Kapcsolat"
 #: src/scenes/contact/index.tsx:9
 #: src/scenes/home/index.tsx:10
 msgid "Eden Tyler-Moss"
-msgstr "Tyler-Moss Eden"
+msgstr "Tyler-Moss Éden"
 
 #: src/scenes/contact/index.tsx:11
 msgid "Email"
@@ -61,15 +61,15 @@ msgstr "Nézd meg a <0>Githubomon</0>, hogy megnézd, mit készítettem és mihe
 
 #: src/main.tsx:41
 msgid "title.404"
-msgstr "404 | Tyler-Moss Eden"
+msgstr "404 | Tyler-Moss Éden"
 
 #: src/main.tsx:34
 msgid "title.contact"
-msgstr "Kapcsolat | Tyler-Moss Eden"
+msgstr "Kapcsolat | Tyler-Moss Éden"
 
 #: src/main.tsx:27
 msgid "title.home"
-msgstr "Kezdőlap | Tyler-Moss Eden"
+msgstr "Kezdőlap | Tyler-Moss Éden"
 
 #: src/scenes/home/index.tsx:12
 msgid "Web developer from Yorkshire - living in Budapest - programming on the internet."
